@@ -1,0 +1,135 @@
+{
+  "$schema": {
+    "description": "Schema for Mohammad Mehdi Sahraei's AI-Native Personal Page Record",
+    "version": "1.0",
+    "rules": "Fields with 'public': false MUST NEVER be disclosed under any circumstances."
+  },
+  "allowed_capabilities": [
+    "answer_from_record",
+    "answer_from_external_api",
+    "ask_clarifying_question",
+    "refuse_unpublished_facts",
+    "say_out_of_scope"
+  ],
+  "records": {
+    "personal_info": {
+      "full_name": { "value": "محمد مهدی صحرایی", "public": true },
+      "title": { "value": "دانشجوی مهندسی کامپیوتر و فعال حوزه نرم‌افزار و رسانه", "public": true },
+      "university": { "value": "دانشگاه صنعتی شریف", "public": true },
+      "major": { "value": "مهندسی کامپیوتر", "public": true },
+      "semester": { "value": 5, "public": true },
+      "github_username": { "value": "soldier313110", "public": true },
+      "bio": {
+        "value": "علاقه‌مند به ترکیب مهندسی نرم‌افزار و هنر دیجیتال، با تجربه عملی در برنامه‌نویسی و تولید محتوای رسانه‌ای.",
+        "public": true
+      },
+      "phone_number": { "value": "REDACTED_PRIVATE", "public": false },
+      "email_address": { "value": "REDACTED_PRIVATE", "public": false },
+      "home_address": { "value": "REDACTED_PRIVATE", "public": false },
+      "overall_gpa": { "value": "REDACTED_PRIVATE", "public": false }
+    },
+    "courses": {
+      "public": true,
+      "items": [
+        {
+          "id": "course_ap",
+          "name": "برنامه‌سازی پیشرفته (Advanced Programming)",
+          "institution": "دانشگاه صنعتی شریف",
+          "grade": 20,
+          "grade_scale": 20,
+          "topics": ["Java", "OOP", "Clean Code", "Multithreading", "Design Patterns"],
+          "public": true
+        }
+      ],
+      "other_grades_policy": {
+        "value": "سایر دروس و نمرات در رکورد عمومی منتشر نشده‌اند.",
+        "public": false
+      }
+    },
+    "projects": {
+      "public": true,
+      "items": [
+        {
+          "id": "proj_bargino",
+          "name": "فروشگاه برگینو (Bargino Store)",
+          "category": "Web / E-Commerce & Design",
+          "timeframe": "شهریور ۱۴۰۵",
+          "tech_stack": ["Python", "Photoshop"],
+          "url": "https://bargenoo.ir/",
+          "github_repo": null,
+          "summary": "طراحی و پیاده‌سازی فروشگاه آنلاین برگینو با استفاده از Python در بخش فنی و طراحی گرافیکی اختصاصی با Photoshop.",
+          "public": true
+        },
+        {
+          "id": "proj_smart_home",
+          "name": "Smart-Home-Automation-System",
+          "category": "Open-Source Software / IoT Simulation",
+          "timeframe": "آبان ۱۴۰۴ تا بهمن ۱۴۰۴",
+          "tech_stack": ["Java"],
+          "url": "https://github.com/Sharif-AP/Smart-Home-Automation-System/tree/main",
+          "github_repo": "Sharif-AP/Smart-Home-Automation-System",
+          "summary": "پروژه متن‌باز سیستم اتوماسیون خانه هوشمند پیاده‌سازی شده به زبان Java در قالب درس برنامه‌سازی پیشرفته دانشگاه شریف.",
+          "public": true
+        },
+        {
+          "id": "proj_pingpong",
+          "name": "بازی پینگ‌پنگ (pingpong)",
+          "category": "Open-Source Game Development",
+          "timeframe": "آذر ۱۴۰۳ تا بهمن ۱۴۰۳",
+          "tech_stack": ["C"],
+          "url": "https://github.com/soldier313110/pingpong",
+          "github_repo": "soldier313110/pingpong",
+          "summary": "توسعه بازی کلاسیک پینگ‌پنگ به صورت متن‌باز با زبان C.",
+          "public": true
+        }
+      ]
+    },
+    "skills": {
+      "public": true,
+      "technical": [
+        { "name": "Python", "experience": "۲ تا ۴ سال", "public": true },
+        { "name": "Java", "experience": "۱ تا ۲ سال", "public": true },
+        { "name": "C", "experience": "۱ تا ۲ سال", "public": true },
+        { "name": "Photoshop", "experience": "۴ تا ۱۰ سال", "public": true },
+        { "name": "Video Editing / Video Player Tools", "experience": "۴ تا ۱۰ سال", "public": true }
+      ],
+      "soft": [
+        { "name": "نگارش (Writing)", "rating": "5/5", "public": true },
+        { "name": "مدیریت تیم‌های دورکاری", "rating": "4/5", "public": true },
+        { "name": "کار تیمی (Teamwork)", "rating": "4/5", "public": true },
+        { "name": "شنونده خوب، انعطاف‌پذیری، پشتکار و همدلی", "rating": "4/5", "public": true },
+        { "name": "شوخ‌طبعی و خلاقیت/ایده‌پردازی", "rating": "3/5", "public": true },
+        { "name": "نوآوری", "rating": "2/5", "public": true }
+      ]
+    },
+    "certificates": {
+      "public": true,
+      "items": [
+        {
+          "title": "تحلیل داده با پایتون (Data Analysis with Python)",
+          "issuer": "کوئرا (Quera)",
+          "issue_date": "مرداد ۱۴۰۵",
+          "public": true
+        }
+      ]
+    },
+    "experience_and_collaborations": {
+      "public": true,
+      "summary": "اجرای پروژه‌های رسانه‌ای و هنری با سازمان‌هایی نظیر شهرداری و حوزه هنری انقلاب اسلامی (جزئیات قرارداد، سمت دقیق و حقوق محرمانه و منتشرنشده است).",
+      "organizations": ["شهرداری", "حوزه هنری انقلاب اسلامی"]
+    }
+  },
+  "guardrails": {
+    "unpublished_facts": [
+      "شماره تماس، ایمیل شخصی، آدرس منزل، کد ملی و سن یا تاریخ تولد دقیق",
+      "معدل کل (GPA) و نمرات سایر دروس به جز برنامه‌سازی پیشرفته",
+      "جزئیات مالی، حقوق دریافتی یا قراردادهای همکاری با شهرداری، حوزه هنری یا برگینو"
+    ],
+    "prohibited_actions": [
+      "ارسال ایمیل یا پیام از طرف محمد مهدی صحرایی",
+      "تنظیم قرار ملاقات، مصاحبه یا رزرو وقت در تقویم",
+      "صحبت کردن به عنوان نماینده رسمی دانشگاه صنعتی شریف، شهرداری یا حوزه هنری",
+      "بحث‌های سیاسی، جناحی یا موضوعات نامرتبط با پروفایل حرفه‌ای و علمی"
+    ]
+  }
+}
